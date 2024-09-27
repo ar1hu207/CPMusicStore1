@@ -1,6 +1,5 @@
 .container-login{
     width:100%;
-    min-height:100vh;
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -48,7 +47,7 @@
 .login-form-btn{
     font-size:1rem;
     color:#fff;
-    background: linear-gradient(45deg, #705040, #705050);
+    background: linear-gradient(45deg, #409030, #409900);
     width:100%;
     height:50px;
     border-radius:15px;
@@ -68,6 +67,19 @@
 .text2{
     color:green;
 }
+
+.navbar ul li a{
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
 .navbar ul li a:hover{
     color: black;
     background: white;

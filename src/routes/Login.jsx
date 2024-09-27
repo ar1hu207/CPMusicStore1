@@ -1,10 +1,13 @@
 import '../css/Login.css'
+import '../css/Nav.css'
+
 
 const Login=()=>{
+    
     return(
         <>
         <section className="container">
-            <div className="container-login">
+            <div className="container-login" >
                 <div className="login">
                     {/*form do login */}
                     <form className="login-form">
@@ -19,8 +22,7 @@ const Login=()=>{
                         <span placeholder="Usuario"></span>
 
                         </div>
-
-
+                        
                         {/*Campo input Senha */}
                         <div className="w-input">
                         <input
