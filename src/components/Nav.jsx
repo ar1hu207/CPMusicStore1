@@ -11,7 +11,7 @@ const Nav = () => {
     return (
         <>
             <header>
-                <div className="logo">Musicas</div>
+                <div className="logo">Spotfiap</div>
                 <div className="hamburger" onClick={toggleNavbar}>
                     <div className="line"></div>
                     <div className="line"></div>
@@ -29,9 +29,7 @@ const Nav = () => {
                         <li>
                             <a href="/login">Login</a>
                         </li>
-                        <li>
-                            <a href="/produtos">Produtos</a>
-                        </li>
+                        
                     </ul>
                 </nav>
             </header>
